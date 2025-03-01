@@ -1,0 +1,14 @@
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\bin\Debug\net8.0\TalentFitApp.DataLayer.deps.json
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\bin\Debug\net8.0\TalentFitApp.DataLayer.runtimeconfig.json
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\bin\Debug\net8.0\TalentFitApp.DataLayer.dll
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\bin\Debug\net8.0\TalentFitApp.DataLayer.pdb
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.csproj.AssemblyReference.cache
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.AssemblyInfoInputs.cache
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.AssemblyInfo.cs
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.csproj.CoreCompileInputs.cache
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.dll
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\refint\TalentFitApp.DataLayer.dll
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.pdb
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.genruntimeconfig.cache
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\ref\TalentFitApp.DataLayer.dll
