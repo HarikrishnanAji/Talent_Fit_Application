@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TalentFitApp.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac98f513b148d57a400f86b65b6ec9ffcc0a8129")]
 [assembly: System.Reflection.AssemblyProductAttribute("TalentFitApp.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TalentFitApp.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
