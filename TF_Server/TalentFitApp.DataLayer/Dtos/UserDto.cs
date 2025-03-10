@@ -1,14 +1,12 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using TalentFitApp.DataLayer.Models;
 
-namespace TalentFitApp.DataLayer.Models;
+namespace TalentFitApp.DataLayer.Dtos;
 
-public class User
+public class UserDto
 {
-    [Key]
-    [Required]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
     public short? UserId { get; set; }
     [Required(ErrorMessage ="Please enter a user name")]
     public string UserName { get; set; }

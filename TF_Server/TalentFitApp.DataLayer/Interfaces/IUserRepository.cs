@@ -5,5 +5,6 @@ namespace TalentFitApp.DataLayer.Interfaces;
 
 public interface IUserRepository
 {
-    Task<User> GetUserByIdAsync(int userId);
+    Task<IEnumerable<User>> GetAllUserAsync();
+    Task<User> GetUserByIdAsync(short userId);
 }

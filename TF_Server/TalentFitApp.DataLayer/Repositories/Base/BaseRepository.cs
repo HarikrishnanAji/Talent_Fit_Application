@@ -1,27 +1,53 @@
 using System;
 using System.Collections;
+using System.Reflection.Metadata.Ecma335;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.Extensions.Logging;
 using TalentFitApp.DataLayer.Context;
 namespace TalentFitApp.DataLayer.Repositories.Base;
 
 public class BaseRepository<T> where T : class
 {
-    protected readonly DbSet<T> _dbset;
+    private readonly DbSet<T> _dbset;
+    private readonly DbContext _dbContext;
+    private readonly ILogger _logger;
 
-    public ApplicationDBContext AppDBContext { get; }
-
-    public BaseRepository(DbSet<T> dbset)
+    public BaseRepository(DbContext dbContext,ILogger logger)
     {
-        _dbset = dbset;
+        _dbset = dbContext.Set<T>();
+        _dbContext = dbContext;
+        _logger = logger;
     }
 
-    public BaseRepository(ApplicationDBContext appDBContext)
+    public async Task<IEnumerable<T>> GetAllAsync()=> await _dbset.ToListAsync();
+    public async Task<T?> GetByIdAsync(short id) =>await _dbset.FindAsync(id);
+    public async Task<T> CreateAsync(T entity)
     {
-        AppDBContext = appDBContext;
+        try
+        {
+            await _dbContext.AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
+        }
+        catch(Exception ex)
+        {
+            _logger.LogError(ex.Message);
+        }
+        return entity;
+    }
+    public async Task<T> UpdateAsync(T entity)
+    {     
+        try
+        {
+            _dbContext.Update(entity);
+            await _dbContext.SaveChangesAsync();
+        }
+        catch(Exception ex)
+        {
+            _logger.LogError(ex.Message);
+        }
+        return entity;
     }
 
-    public IQueryable<T> GetAllAsync() => _dbset.AsQueryable();
-    public async Task<T?> GetByIdAsync(int id) =>await _dbset.FindAsync(id);
-    public async Task CreateAsync(T entity)=> await _dbset.AddAsync(entity);
-    public async Task UpdateAsync(T entity)=> _dbset.Update(entity);
 }

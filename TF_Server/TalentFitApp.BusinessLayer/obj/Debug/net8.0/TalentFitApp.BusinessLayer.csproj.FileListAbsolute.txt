@@ -9,3 +9,4 @@ E:\TalentFitApp\TF_Server\TalentFitApp.BusinessLayer\obj\Debug\net8.0\TalentFitA
 E:\TalentFitApp\TF_Server\TalentFitApp.BusinessLayer\obj\Debug\net8.0\refint\TalentFitApp.BusinessLayer.dll
 E:\TalentFitApp\TF_Server\TalentFitApp.BusinessLayer\obj\Debug\net8.0\TalentFitApp.BusinessLayer.pdb
 E:\TalentFitApp\TF_Server\TalentFitApp.BusinessLayer\obj\Debug\net8.0\ref\TalentFitApp.BusinessLayer.dll
+E:\TalentFitApp\TF_Server\TalentFitApp.BusinessLayer\obj\Debug\net8.0\TalentFitApp.BusinessLayer.sourcelink.json

@@ -12,3 +12,4 @@ E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\refint\TalentF
 E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.pdb
 E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.genruntimeconfig.cache
 E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\ref\TalentFitApp.DataLayer.dll
+E:\TalentFitApp\TF_Server\TalentFitApp.DataLayer\obj\Debug\net8.0\TalentFitApp.DataLayer.sourcelink.json

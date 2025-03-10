@@ -171,3 +171,4 @@ E:\TalentFitApp\TF_Server\TalentFitApp.API\obj\Debug\net8.0\refint\TalentFitApp.
 E:\TalentFitApp\TF_Server\TalentFitApp.API\obj\Debug\net8.0\TalentFitApp.API.pdb
 E:\TalentFitApp\TF_Server\TalentFitApp.API\obj\Debug\net8.0\TalentFitApp.API.genruntimeconfig.cache
 E:\TalentFitApp\TF_Server\TalentFitApp.API\obj\Debug\net8.0\ref\TalentFitApp.API.dll
+E:\TalentFitApp\TF_Server\TalentFitApp.API\obj\Debug\net8.0\TalentFitApp.API.sourcelink.json
